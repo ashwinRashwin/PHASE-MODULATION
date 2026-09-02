@@ -33,34 +33,27 @@ Display the Result: Observe the phase variation of the carrier signal according 
 
 PROGRAM
 ~~~
-clc;
-clear;
+Am=1.4;
+Ac=2.45;
+fm=337;
+fc=3370;
+fs=337000;
+B=2.17;
+Kp=B;
+t=0:1/fs:2/fm;
+em=Am*cos(2*3.14*fm*t);
+subplot(4,1,1);
+plot(t,em);
+ec=Ac*cos(2*3.14*fc*t);
+subplot(4,1,2);
+plot(t,ec);
+efm=Ac*cos((2*3.14*fc*t)+(B*sin(2*3.14*fm*t)));
+subplot(4,1,3);
+plot(t,efm);
+epm=Ac*cos((2*3.14*fc*t)+(Kp*cos(2*3.14*fm*t)));
+subplot(4,1,4);
+plot(t,epm);
 
-t = 0:0.01:2*3.14;
-x = sin(6*t);
-
-subplot(3,2,1);
-plot(x);
-
-au = xcorr(x,x);
-
-subplot(3,2,2);
-plot(au);
-
-v = fft(au);
-
-subplot(3,2,3);
-plot(abs(v));
-
-fw = fft(x);
-
-subplot(3,2,4);
-plot(real(fw), imag(fw));
-
-fw2 = (abs(fw)).^2;
-
-subplot(3,2,5);
-plot(fw2);
 ~~~
 TABULATION
 
