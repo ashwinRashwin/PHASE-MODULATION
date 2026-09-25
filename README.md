@@ -62,7 +62,7 @@ OUTPUT WAVEFORM
 
 TABULATION
 
-<img width="846" height="1447" alt="WhatsApp Image 2026-09-25 at 12 10 16 PM" src="https://github.com/user-attachments/assets/865b9f2a-0d93-44c1-8cec-ac50ac513a82" />
+<img width="961" height="1600" alt="WhatsApp Image 2026-09-25 at 1 10 11 PM" src="https://github.com/user-attachments/assets/4781b09a-1253-4a04-9d35-cf13f758b0f4" />
 
 
 CALCULATION
