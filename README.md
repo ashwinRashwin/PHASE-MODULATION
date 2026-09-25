@@ -33,12 +33,12 @@ Display the Result: Observe the phase variation of the carrier signal according 
 
 PROGRAM
 ~~~
-Am=1.4;
-Ac=2.45;
-fm=337;
-fc=3370;
-fs=337000;
-B=2.17;
+Am=3.05;
+Ac=5.645;
+fm=579;
+fc=5790;
+fs=57900;
+B=4.04;
 Kp=B;
 t=0:1/fs:2/fm;
 em=Am*cos(2*3.14*fm*t);
@@ -62,12 +62,12 @@ OUTPUT WAVEFORM
 
 TABULATION
 
-<img width="1599" height="899" alt="WhatsApp Image 2026-09-02 at 22 18 50" src="https://github.com/user-attachments/assets/4e256998-b68a-4de4-9d4f-789bd16c4888" />
+<img width="846" height="1447" alt="WhatsApp Image 2026-09-25 at 12 10 16 PM" src="https://github.com/user-attachments/assets/865b9f2a-0d93-44c1-8cec-ac50ac513a82" />
+
 
 CALCULATION
 
-<img width="1600" height="1402" alt="WhatsApp Image 2026-09-02 at 22 19 45" src="https://github.com/user-attachments/assets/b25eba04-b51d-44a5-9a02-9ff31056cc71" />
-<img width="899" height="1599" alt="WhatsApp Image 2026-09-02 at 22 19 29" src="https://github.com/user-attachments/assets/f86419a2-498b-4494-8875-f2156f562d1b" />
+<img width="975" height="1396" alt="WhatsApp Image 2026-09-25 at 1 07 16 PM" src="https://github.com/user-attachments/assets/bf76d416-6ac1-4e69-82a3-5c01b564b5ff" />
 
 RESULT
 The message signal, carrier signal, and phase-modulated (PM) signal will be displayed in separate plots. The modulated signal will show phase variations corresponding to the amplitude of the message signal.
